@@ -1,0 +1,175 @@
+<!--thead, tbody,tfooter doent make any change used only for understanding which part it is-->
+<table border="2">
+    <thead>
+    <tr>
+        <th>item</th>
+            <th>quantity</th>
+                <th>price <th>
+    </tr>
+    </thead>
+    <tbody>
+       <tr>
+            <td>apple</td>
+                <td>10</td>
+                    <td>$1.00</td>
+       </tr>
+       </tbody>
+       <tfooter>
+          <tr>
+                <td>orange</td>
+                    <td>5</td> 
+                    <td>$1.50</td>         </tr>
+             <tr>
+                    <td>total</td>
+                        <td>15</td>
+                            <td>$2.50</td>
+             </tr></tfooter>
+</table>
+
+<br><br>
+<!--it can be written in this way too but dont prefer it-->
+
+<table border="5">
+    <tr>
+        <td><h4>item</h4></td>
+            <td><h4>quantity</h4></td>
+                <td><h4>price </h4><td>
+    </tr>
+       <tr>
+            <td>apple</td>
+                <td>10</td>
+                    <td>$1.00</td>
+       </tr>
+          <tr>
+                <td>orange</td>
+                    <td>5</td> 
+                    <td>$1.50</td>         </tr>
+             <tr>
+                    <td>total</td>
+                        <td>15</td>
+                            <td>$2.50</td>
+             </tr>
+</table><br><br>
+<!--without colspan-->
+<table border="2">
+<thead><tr>
+<th>name</th>
+<th>contact info</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td>ayush mohan pandey</td>
+    <td>983896736</td>
+    <td>ayush@gmail.com</td>
+</tr>
+<tr><td>abhay raj patel</td>
+<td>9838974676</td>
+<td>abhay@gmail.com</td></tr>
+<tr><td>ashish kumar vishwakarma</td>
+<td>8175962488</td>
+<td>ashish@gmail.com</td></tr>
+</tbody>
+</table>
+<!--with colspan-->
+<br><br><br>
+<table border="2">
+<thead><tr>
+<th>name</th>
+<th colspan="2">contact info</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td>ayush mohan pandey</td>
+    <td>983896736</td>
+    <td>ayush@gmail.com</td>
+</tr>
+<tr><td>abhay raj patel</td>
+<td>9838974676</td>
+<td>abhay@gmail.com</td></tr>
+<tr><td>ashish kumar vishwakarma</td>
+<td>8175962488</td>
+<td>ashish@gmail.com</td></tr>
+</tbody>
+</table>
+<br>
+<br><br>
+<!--use of row span-->
+
+<table border="2">
+<thead><tr>
+<th>name</th>
+<th colspan="2">contact info</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td rowspan="2">ayush mohan pandey</td>
+    <td>983896736</td>
+    <td>ayush@gmail.com</td>
+</tr>
+<tr>
+<td>9838974676</td>
+<td>abhay@gmail.com</td></tr>
+<tr><td>ashish kumar vishwakarma</td>
+<td>8175962488</td>
+<td>ashish@gmail.com</td></tr>
+</tbody>
+</table>
+<br><br>
+<!--now using colspan and rowspan together-->
+
+<table border="2">
+<thead><tr>
+<th>name</th>
+<th colspan="2">contact info</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td rowspan="2">ayush mohan pandey</td>
+    <td>983896736</td>
+    <td>ayush@gmail.com</td>
+</tr>
+<tr>
+
+<td colspan="2">abhay@gmail.com</td></tr>
+<tr><td>ashish kumar vishwakarma</td>
+<td>8175962488</td>
+<td>ashish@gmail.com</td></tr>
+</tbody>
+</table>
+<br>
+
+<!--practice of table-->
+<table border="1">
+    <thead><tr>
+        <th>LEVEL1</th>
+        <th>LEVEL2</th>
+        <th>LEVEL3</th>
+        <th>LEVEL4</th>
+        <th>LEVEL5</th>
+    
+    </tr></thead>
+    <tbody>
+   <tr>
+    <td rowspan="6">SYTEM</td>
+    <td rowspan="4">sytem apps</td>
+    <td rowspan="3">system environment</td>
+    <td>app test</td>
+    <td rowspan="2">foo</td>
+   </tr>
+        <tr><td>app memory</td></tr>
+        <tr><td>app test</td>
+        <td rowspan="2">bar</td></tr>
+        <tr><td>system env2</td>
+        <td>app memory</td></tr>
+        <tr><td colspan="2" rowspan="2">sytem memory</td>
+        <td>memory function</td>
+        <td>foo</td></tr>
+        <tr><td>appes test</td>
+        <td>bar</td></tr>
+    
+    </tbody>
+</table><br>
